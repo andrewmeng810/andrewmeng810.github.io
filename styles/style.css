@@ -1,0 +1,30 @@
+p {
+  color: red;
+}
+h1 {
+  color: blue;
+  font-size: 60px;
+  text-align: center;
+}
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 13px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+/*
+padding：即内边距，围绕着内容（比如段落）的空间。
+border：即边框，紧接着内边距的线。
+margin：即外边距，围绕元素外部的空间。
+*/
