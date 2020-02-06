@@ -23,7 +23,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Mozilla 酷毙了，' + myName;
+    myHeading.innerHTML = 'Welcome to my page，' + myName + '!';
   }
 }
 // 初始化代码，因为它在页面初次读取时进行构造工作
@@ -31,7 +31,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla 酷毙了，' + storedName;
+  myHeading.textContent = 'Welcome to my page，' + storedName + '!';
 }
 // 按钮设置 onclick 事件处理器
 myButton.onclick = function() {
